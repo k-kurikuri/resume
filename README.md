@@ -19,7 +19,7 @@
   - python (v2.7 - v3.5)
   - Java (v5.0 -   v7.0)
   - C# (v6.0)
-  - GoLang (v1.9 - v1.12)
+  - Go (v1.9 - v1.12)
 
 - Japanese
   - ネイティブ
