@@ -8,7 +8,6 @@
 |Twitter|[@k_kurikuri2](https://twitter.com/k_kurikuri2)|
 |Qiita|[@k-kurikuri](https://qiita.com/k-kurikuri)|
 |Speakerdeck|[@k-kurikuri](https://speakerdeck.com/k_kurikuri)|
-|Hatena Blog|[@k-kurikuri](http://k-kurikuri.hatenadiary.jp)|
 
 ## Skills
 ### Language
