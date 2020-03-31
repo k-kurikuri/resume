@@ -18,7 +18,7 @@
   - python (v2.7 - v3.5)
   - Java (v5.0 -   v7.0)
   - C# (v6.0)
-  - Go (v1.9 - v1.12)
+  - Go (v1.9 - v1.14)
 
 - Japanese
   - ネイティブ
@@ -26,7 +26,7 @@
 - English
   - 公式ドキュメントやREADME、技術サイトなど、翻訳ツールを使用しながら読むことができる
 
-### Framework
+### WebFramework
 - Laravel (v4.2 - v5.5)
 - Symfony2
 - PlayFramework for Java (v2.2)
@@ -34,6 +34,10 @@
 - .NetFramework (v4.6)
 - Android (v2.3)
 - Revel (v0.17)
+
+### JSFramework
+- React.js
+- Vue.js
 
 ### Testing Framework
 - PHPUnit
