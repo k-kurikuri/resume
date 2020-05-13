@@ -153,6 +153,82 @@
 
 ## Job Career
 
+### 2019/07〜2020/05: ニュースアプリ案件、クーポンアプリ開発案件
+#### 職務
+バックエンドエンジニア (準委任契約)
+
+#### 開発規模
+チーム規模18名
+- リードエンジニア1名
+- バックエンドエンジニア4名
+- クライアントエンドエンジニア5名
+- ディレクター5名
+- QA2名
+- デザイナー1名
+
+#### 開発手法
+スクラム開発
+
+#### 役割
+Goを使ったAPI開発とVue.js+TypeScriptを使ったフロント開発
+
+#### 使用技術の詳細
+バックエンドの技術詳細は次の通り
+
+- Go(v1.12 - v1.14)
+- skaffold
+- goa design
+- Realize
+
+AWS, 各Saasの用途は次の通りです
+
+- EKS
+- S3
+- ECS Fargate
+- SQS
+- SNS
+- DynamoDB
+- RDS for MySQL
+- AWS System Manager
+- CircleCI
+- Docker
+- Terraform
+- Envoy
+- Akamai
+- Firebase Authentication
+- Sentry
+- DataDog
+- PaperTrail
+- Gatling
+
+フロントエンド
+
+- TypeScript3.6
+- Vue.js2.6
+- Vuex
+- vue-class-component
+- vue-property-decorator
+- vue-router
+- prettier
+- bootstrap-vue
+
+TVCMを行うキャンペーン機能のバックエンドサーバ開発を2名で行う。バックエンドはGoを使用しフロントエンドはjQueryを使用し動的なUIを組み込み。
+TVCM後のアクセス過多を予測しGatlingを使用した負荷テストも実施しリリースと運用管理まで行った。
+
+大手通信プロバイダ向けのクーポンサイトのバックエンドをGoを使用し新規で開発。フロント1名、バックエンド1名で1ヶ月で開発しリリースを行う。認証にはFirebase Authenticationを使用。運用時には抽選機能の実装なども行った。
+
+社内管理ツールをフロントをVue.js + TypeScritpt、バックエンドをGoで新規開発。社内の運用効率化のため管理機能を実装。オペレーション業務の理解、求められるUIなどヒアリングし、ドキュメントにまとめ認識齟齬がないよう開発を行った。
+
+ニュースアプリ内に外部モニターサービスのAPIを組み込み、リリースまでに必要な技術的な折衝を外部会社とも行い一貫してリリースまで担当。
+外部APIとはリクエストパラメータをAES(CBCモード)で暗号化し送受信していた。
+
+#### 実績
+- go modulesを使用したパッケージ管理
+- ニュースアプリに関わる業務の理解
+- DynamoDBやFirebase Authenticationなどの運用知見
+- 様々な職種、初対面のエンジニアともうまくコミュニケーションを取り開発推進力を向上
+
+
 ### 2019/02〜2019/06: eKYC案件
 #### 職務
 バックエンドエンジニア (準委任契約)
