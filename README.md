@@ -177,6 +177,7 @@ Goを使ったAPI開発とVue.js+TypeScriptを使ったフロント開発
 
 - Go(v1.12 - v1.14)
 - skaffold
+- kustomize
 - goa design
 - Realize
 
