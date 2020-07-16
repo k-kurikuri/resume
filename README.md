@@ -129,6 +129,7 @@
 ### CI
 - Jenkins
 - CircleCI
+- Github Actions
 
 ### Chat Tool
 - Slack
