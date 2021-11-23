@@ -18,7 +18,7 @@
   - python (v2.7 - v3.5)
   - Java (v5.0 -   v7.0)
   - C# (v6.0)
-  - Go (v1.9 - v1.14)
+  - Go (v1.9 - v1.15)
 
 - Japanese
   - ネイティブ
@@ -153,6 +153,61 @@
 - Access VBA Expert
 
 ## Job Career
+
+### 2020/07〜現在: 広告効果の可視化・最適化システム開発案件
+#### 職務
+バックエンドエンジニア (準委任契約)
+
+#### 開発規模
+チーム規模12名
+- リードエンジニア1名
+- バックエンドエンジニア4名
+- クライアントエンドエンジニア2名
+- ディレクター3名
+- QA2名
+
+
+#### 開発手法
+スクラム開発
+
+#### 役割
+- gRPCを使用したマイクロサービスバックエンド開発
+- GraphQLを使用したBFFサーバの開発
+- 既存システムのマイクロサービス化リプレイス開発
+
+#### 使用技術の詳細
+バックエンドの技術詳細は次の通り
+- Go(v1.14 - v1.15)
+- gRPC
+- GraphQL (gqlgen)
+- excelize
+
+AWS, 各Saasの用途は次の通りです
+
+- EKS
+  - kustomize
+  - kubesec
+- S3
+- ECS Fargate
+- Step Functions
+- SQS
+- DynamoDB
+- RDS for Postgres
+- GitHub Actions
+- Docker
+- Terraform
+- Sentry
+- DataDog
+- Argo CD
+- Argo Workflows
+
+フロントエンド
+
+- TypeScript
+- NuxtJS
+
+#### 実績
+TODO
 
 ### 2019/07〜2020/05: ニュースアプリ案件、クーポンアプリ開発案件
 #### 職務
