@@ -18,7 +18,7 @@
   - python (v2.7 - v3.5)
   - Java (v5.0 -   v7.0)
   - C# (v6.0)
-  - Go (v1.9 - v1.15)
+  - Go (v1.9 - v1.17)
 
 - Japanese
   - ネイティブ
@@ -38,11 +38,14 @@
 ### JSFramework
 - React.js
 - Vue.js
+- NuxtJS
 
 ### Testing Framework
 - PHPUnit
 - JUnit
 - goconvey
+- JEST
+- cypress
 
 ### Package Manager
 - Composer
@@ -101,6 +104,7 @@
 - Backlog
 - Trello
 - ZenHub
+- asana
 
 ### VCS
 - Github
@@ -177,7 +181,7 @@
 
 #### 使用技術の詳細
 バックエンドの技術詳細は次の通り
-- Go(v1.14 - v1.15)
+- Go(v1.14 - v1.17)
 - gRPC
 - GraphQL (gqlgen)
 - excelize
