@@ -1,24 +1,24 @@
 # My Resume
 
-## Basic Infomation
+## Basic Information
 
-|key|value|
-|---|-----|
-|Name|k-kurikuri|
-|Twitter|[@k_kurikuri2](https://twitter.com/k_kurikuri2)|
-|Qiita|[@k-kurikuri](https://qiita.com/k-kurikuri)|
-|Speakerdeck|[@k-kurikuri](https://speakerdeck.com/k_kurikuri)|
+| key         | value                                             |
+|-------------|---------------------------------------------------|
+| Name        | k-kurikuri                                        |
+| Twitter     | [@k_kurikuri2](https://twitter.com/k_kurikuri2)   |
+| Qiita       | [@k-kurikuri](https://qiita.com/k-kurikuri)       |
+| SpeakerDeck | [@k-kurikuri](https://speakerdeck.com/k_kurikuri) |
 
 ## Skills
 ### Language
 - Programming
-  - PHP (v5.3 - v7.1)
+  - Go (v1.9 - v1.17)
   - JavaScript (ES6)
   - TypeScript (v2.6 - v3.4)
   - python (v2.7 - v3.5)
-  - Java (v5.0 -   v7.0)
+  - Java (v5.0 - v7.0)
   - C# (v6.0)
-  - Go (v1.9 - v1.17)
+  - PHP (v5.3 - v7.1)
 
 - Japanese
   - ネイティブ
@@ -27,6 +27,7 @@
   - 公式ドキュメントやREADME、技術サイトなど、翻訳ツールを使用しながら読むことができる
 
 ### WebFramework
+- labstack/echo
 - Laravel (v4.2 - v5.5)
 - Symfony2
 - PlayFramework for Java (v2.2)
@@ -72,7 +73,7 @@
 - Oracle 10g
 - Redis v4
 - Memcached v1.4
-- MongodB
+- MongoDB
 - td-agent (Fluentd)
 
 ### Deploy Tool
@@ -128,12 +129,11 @@
   - Cloud SQL
   - Kubernetes Engine
   - Cloud Function
-- Heroku
 
 ### CI
-- Jenkins
+- GitHub Actions
 - CircleCI
-- Github Actions
+- Jenkins
 
 ### Chat Tool
 - Slack
@@ -147,7 +147,6 @@
 - Gatling
 - JMeter
 - Gaurun
-- etc...
 
 ### Developer License
 - Oracle Certified Professional, Java SE 5 Programmer
@@ -158,7 +157,7 @@
 
 ## Job Career
 
-### 2020/07〜現在: 広告効果の可視化・最適化システム開発案件
+### 2020/07〜2022/05: 広告効果の可視化・最適化システム開発案件
 #### 職務
 バックエンドエンジニア (準委任契約)
 
@@ -166,10 +165,9 @@
 チーム規模12名
 - リードエンジニア1名
 - バックエンドエンジニア4名
-- クライアントエンドエンジニア2名
+- フロントエンドエンジニア2名
 - ディレクター3名
 - QA2名
-
 
 #### 開発手法
 スクラム開発
@@ -178,6 +176,7 @@
 - gRPCを使用したマイクロサービスバックエンド開発
 - GraphQLを使用したBFFサーバの開発
 - 既存システムのマイクロサービス化リプレイス開発
+- フロントエンドのバグ対応やデザインが絡まないタスク
 
 #### 使用技術の詳細
 バックエンドの技術詳細は次の通り
@@ -196,7 +195,7 @@ AWS, 各Saasの用途は次の通りです
 - Step Functions
 - SQS
 - DynamoDB
-- RDS for Postgres
+- Aurora (Postgres)
 - GitHub Actions
 - Docker
 - Terraform
@@ -206,12 +205,30 @@ AWS, 各Saasの用途は次の通りです
 - Argo Workflows
 
 フロントエンド
-
 - TypeScript
 - NuxtJS
+- StoryBook
+- Bit
+- Cypress
+
+参画中は2つのプロジェクトを担当。
+
+1つ目は過去実施した広告媒体・広告にかけた費用・月毎の売上などの実績データを元に、未来の最適な広告予算分配・売上予測を可視化するtoB向け新規プロジェクト開発
+開発期間6ヶ月でマイクロサービスアーキテクチャを採用したWebシステムであった。
+この企業では初めてのGoアプリケーションであること、マイクロサービスアーキテクチャでの開発・運用も初めてであるという事で色々な経験を積むことができた。
+
+2つ目は過去実施した広告媒体・広告にかけた費用・月毎の売上などの実績データを元に、マーケティング施策の成果への各広告の貢献度を分析する既存システムのマイクロサービス化開発と運用
+開発期間1年。リリース後の運用は3ヶ月。システムのリプレイス化も初めての経験であった。
+
+元々のシステムが統計を扱っている事もあり、かなり複雑な仕様であった。
+仕様書にも落とし込めない細かな所があると考え、既存のソースコードを読み解きながら実装を行った。
+仕様書に記載のない振る舞いを発見した際には、仕様書の更新を自ら行いQA以降で認識齟齬がでないように意識した。
 
 #### 実績
-TODO
+- 広告や統計に関するドメイン知識
+- マイクロサービスの新規開発と運用の知見 
+- gRPC、GraphQLの開発知見
+- 既存システムのリプレイス化の進め方と開発・運用の知見
 
 ### 2019/07〜2020/05: ニュースアプリ案件、クーポンアプリ開発案件
 #### 職務
@@ -221,7 +238,7 @@ TODO
 チーム規模18名
 - リードエンジニア1名
 - バックエンドエンジニア4名
-- クライアントエンドエンジニア5名
+- クライアントエンジニア5名
 - ディレクター5名
 - QA2名
 - デザイナー1名
@@ -278,7 +295,7 @@ TVCM後のアクセス過多を予測しGatlingを使用した負荷テストも
 
 大手通信プロバイダ向けのクーポンサイトのバックエンドをGoを使用し新規で開発。フロント1名、バックエンド1名で1ヶ月で開発しリリースを行う。認証にはFirebase Authenticationを使用。運用時には抽選機能の実装なども行った。
 
-社内管理ツールをフロントをVue.js + TypeScritpt、バックエンドをGoで新規開発。社内の運用効率化のため管理機能を実装。オペレーション業務の理解、求められるUIなどヒアリングし、ドキュメントにまとめ認識齟齬がないよう開発を行った。
+社内管理ツールをフロントをVue.js + TypeScript、バックエンドをGoで新規開発。社内の運用効率化のため管理機能を実装。オペレーション業務の理解、求められるUIなどヒアリングし、ドキュメントにまとめ認識齟齬がないよう開発を行った。
 
 ニュースアプリ内に外部モニターサービスのAPIを組み込み、リリースまでに必要な技術的な折衝を外部会社とも行い一貫してリリースまで担当。
 外部APIとはリクエストパラメータをAES(CBCモード)で暗号化し送受信していた。
