@@ -12,7 +12,7 @@
 ## Skills
 ### Language
 - Programming
-  - Go (v1.9 - v1.17)
+  - Go (v1.9 - v1.20)
   - JavaScript (ES6)
   - TypeScript (v2.6 - v3.4)
   - python (v2.7 - v3.5)
