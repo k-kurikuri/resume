@@ -156,6 +156,78 @@
 - Access VBA Expert
 
 ## Job Career
+### 2022/08〜2023/07: IPを用いたNFT販売サービス開発案件
+#### 職務
+バックエンドエンジニア (準委任契約)
+
+#### 開発規模
+チーム規模8名
+- インフラエンジニア1名
+- バックエンドエンジニア2名
+- フロントエンドエンジニア2名
+- ディレクター2名
+
+#### 使用技術の詳細
+バックエンドの技術詳細は次の通り
+- Go(v1.19 - v1.20)
+  - [samber/lo](https://github.com/samber/lo)
+  - [openapi-generator](https://github.com/OpenAPITools/openapi-generator)
+  - [aws-sdk-go-v2](https://github.com/aws/aws-sdk-go-v2)
+  - [go-txdb](https://github.com/DATA-DOG/go-txdb)
+  - [gorm](https://github.com/go-gorm/gorm)
+  - [Songmu/flextime](https://github.com/Songmu/flextime)
+
+AWS, 各Saasの用途は次の通りです
+
+- Cognito (user pool)
+- S3
+- ECS Fargate
+- SQS
+- DynamoDB
+- Aurora Serverless (MySQL)
+- Lambda
+- CloudFront
+- CloudWatch Logs
+- KMS
+- Kinesis Data Firehose
+- Atena
+- SES
+- Elasticache (Redis)
+- CodePipeline
+- CodeBuild
+- GitHub Actions
+- Metabase
+- Airtable
+
+フロントエンド
+- TypeScript
+- NextJS
+- StoryBook
+- Sentry
+- aspida
+
+参画中は2つのサービスの開発を担当を行いました。開発中盤でのアサインであったため要件から設計へと起す作業はほとんどなく、機能のAPI実装を行うことが大半であった。
+NFTを扱うため転送処理などはgoroutineを使用した並行処理を行うことが多かったです。
+
+担当したタスクをいくつか列挙します
+
+- エラーアラートを検知し原因調査と対応方針をとり決め実施
+- LambdaとDynamodb Streamsを使用したデータ同期
+- 各種KPIのSQL集計
+- アプリケーション内の時間軸を任意に変更する開発機能をflextimeを使い実装
+- カスタムlintの作成
+  - flextimeを強制するためtimeパッケージの検出linterの作成
+  - loggerには[zap](https://github.com/uber-go/zap)を使用していたためlogパッケージの検出linterの作成
+- aws go sdk v2から自動でinterfaceを生成するshell scriptの作成
+- Dockerfileのmulti stage build化
+- 必要なhttp middlewareの作成
+- Google App Scriptを使用したLINE通知機能の実装
+
+#### 実績
+- ERCの規格やLayer2(Polygon, Arbitrum)などNFTに関するドメイン知識
+- ChatGPT-4やGitHub Copilotを使用した開発効率を上げる知見
+- オーナーシップを持ち開発からリリースまで一貫して行う責任感
+- 全体最適を意識した計画の遂行
 
 ### 2020/07〜2022/05: 広告効果の可視化・最適化システム開発案件
 #### 職務
